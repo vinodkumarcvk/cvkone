@@ -5,11 +5,7 @@ body{
     font-weight: 400;
     overflow-x: hidden;
     overflow-y: auto;
+    margin:40px;
+    padding:100px;
 }
 
-
-.wrapper{
-  min-height: 100%;
-    position: static;
-    overflow: hidden;
-}

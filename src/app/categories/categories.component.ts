@@ -10,6 +10,10 @@ export class CategoriesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
+    //    $(document).ready(() => {
+    //      $('[data-toggle="tooltip"]').tooltip();
+    //     });
+    //  }
 
+  }
 }

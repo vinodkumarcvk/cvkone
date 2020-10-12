@@ -11,7 +11,9 @@ import { ProductsComponent } from './products/products.component';
 import { CustomersComponent } from './customers/customers.component';
 import { PromoCodesComponent } from './promo-codes/promo-codes.component';
 import { PaymentsComponent } from './payments/payments.component';
-import { SubcategoryComponent } from './subcategory/subcategory.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SubcategoryComponent } from './subcategory/subcategory.component';
     CustomersComponent,
     PromoCodesComponent,
     PaymentsComponent,
-    SubcategoryComponent
+    LoginComponent,
+    SignupComponent,
+
   ],
   imports: [
     BrowserModule,
