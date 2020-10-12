@@ -1,3 +1,14 @@
-.bs-example{
-    	margin: 20px;
-    }
+.conatiner{
+  border:1px solid grey;
+  padding: 2px;
+  padding-left: 91px;
+  padding-top: 9px;
+  min-height: 100%;
+   position: static;
+    overflow: hidden;
+
+}
+.subContainer{
+  border:1px solid blue;
+  padding: 10px;
+}

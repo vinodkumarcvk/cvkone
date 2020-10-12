@@ -7,17 +7,22 @@ import { CustomersComponent } from './customers/customers.component';
 
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
-import { componentFactoryName } from '@angular/compiler';
+import { CategoryMainComponent } from './category-main/category-main.component';
+import { PromoCodesComponent } from './promo-codes/promo-codes.component';
+import { PaymentsComponent } from './payments/payments.component';
 
 
 const routes: Routes = [
+  {path: 'login', component: LoginComponent},
+  { path: 'signup', component: SignupComponent },
   { path: 'order', component: OrdersComponent },
   { path: 'products', component: CategoriesComponent },
+  {path: 'category', component: CategoryMainComponent},
   { path: 'subCategory', component: SubCategoriesComponent },
-  {path: 'customer', component: CustomersComponent},
-  {path: 'login', component: LoginComponent},
-  {path: 'signup', component: SignupComponent},
-{path: 'category', component: CategoriesComponent}
+  { path: 'customer', component: CustomersComponent },
+  { path: 'promoCode', component: PromoCodesComponent },
+  {path: 'paymemt', component: PaymentsComponent}
+
 
 ];
 

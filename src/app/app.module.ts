@@ -13,6 +13,7 @@ import { PromoCodesComponent } from './promo-codes/promo-codes.component';
 import { PaymentsComponent } from './payments/payments.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { CategoryMainComponent } from './category-main/category-main.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { SignupComponent } from './signup/signup.component';
     PaymentsComponent,
     LoginComponent,
     SignupComponent,
+    CategoryMainComponent,
 
   ],
   imports: [
