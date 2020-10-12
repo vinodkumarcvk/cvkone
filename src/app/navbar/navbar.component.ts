@@ -10,8 +10,11 @@ export class NavbarComponent implements OnInit {
 
   constructor() { }
 
+  // tslint:disable-next-line: typedef
   ngOnInit(){
+    // tslint:disable-next-line: deprecation
     $(document).ready(() => {
+        // tslint:disable-next-line: deprecation
         $('#open-menu').click(() => {
             if ($('#page-container').hasClass('show-menu')) {
               $('#page-container').removeClass('show-menu');

@@ -10,6 +10,7 @@ import { SignupComponent } from './signup/signup.component';
 import { CategoryMainComponent } from './category-main/category-main.component';
 import { PromoCodesComponent } from './promo-codes/promo-codes.component';
 import { PaymentsComponent } from './payments/payments.component';
+import { NewNavbarComponent } from './new-navbar/new-navbar.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,8 @@ const routes: Routes = [
   { path: 'subCategory', component: SubCategoriesComponent },
   { path: 'customer', component: CustomersComponent },
   { path: 'promoCode', component: PromoCodesComponent },
-  {path: 'paymemt', component: PaymentsComponent}
+  {path: 'paymemt', component: PaymentsComponent},
+  {path: 'newNavBar', component: NewNavbarComponent}
 
 
 ];

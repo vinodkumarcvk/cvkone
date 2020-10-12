@@ -14,6 +14,7 @@ import { PaymentsComponent } from './payments/payments.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { CategoryMainComponent } from './category-main/category-main.component';
+import { NewNavbarComponent } from './new-navbar/new-navbar.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { CategoryMainComponent } from './category-main/category-main.component';
     LoginComponent,
     SignupComponent,
     CategoryMainComponent,
+    NewNavbarComponent,
 
   ],
   imports: [

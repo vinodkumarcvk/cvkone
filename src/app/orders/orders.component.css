@@ -9,6 +9,11 @@
 
 }
 .subContainer{
-  border:1px solid blue;
+  border:1px solid rgb(204, 204, 235);
   padding: 10px;
+}
+
+.seachBox{
+  margin-left:1050px;
+  margin-bottom: 10px;
 }
