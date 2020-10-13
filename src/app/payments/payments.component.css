@@ -51,6 +51,9 @@ body{
      margin:0;
      margin-top: 5px;
      padding: 0;
+     margin-right: 100px;
+     padding-right: 10px;
+     justify-content: space-between;
  }
  
  #custom-search-form .search-query {
@@ -89,7 +92,7 @@ body{
      z-index: 3;   
  }   
  .search-query:focus{
-     width: 260px;
+     width: 200px;
  }   
  
  

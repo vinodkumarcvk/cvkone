@@ -12,11 +12,11 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
 
-  ngOnInit(): void{
+  ngOnInit(){
 
-    $(Element).on( 'ready', ( e) => {
+    $(document).ready( () => {
 
-        $('#open-menu').on('click', ( el ) => {
+        $('#open-menu').click( () => {
             if ($('#page-container').hasClass('show-menu')) {
               $('#page-container').removeClass('show-menu');
             }
