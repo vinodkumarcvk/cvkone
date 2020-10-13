@@ -1,4 +1,4 @@
-.conatiner{
+/* .conatiner{
   border:1px solid grey;
   padding: 2px;
   padding-left: 91px;
@@ -11,4 +11,86 @@
 .subContainer{
   border:1px solid blue;
   padding: 10px;
-}
+} */
+
+body{
+  margin-top: 0px;
+  margin-left:130px;
+  padding-top:75px;
+  }
+  
+ 
+ 
+ 
+ .custab{
+   border: 1px solid #ccc;
+   padding: 5px;
+   margin: 5% 0;
+   box-shadow: 3px 3px 2px #ccc;
+   transition: 0.5s;
+   }
+ .custab:hover{
+   box-shadow: 3px 3px 0px transparent;
+   transition: 0.5s;
+   }
+ .prodname{
+   float: left;
+   text-align: right;
+ }
+ 
+   .container{
+     width: 100%;
+     display: inline-block;
+     margin-left:0px
+   } 
+ 
+ 
+ 
+    /* searachbox */
+    #custom-search-form {
+     margin:0;
+     margin-top: 5px;
+     padding: 0;
+ }
+ 
+ #custom-search-form .search-query {
+     padding-right: 3px;
+     padding-right: 4px \9;
+     padding-left: 3px;
+     padding-left: 4px \9;
+     /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+     margin-bottom: 0;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+     -webkit-transition: width  0.2s ease-in-out;
+ -moz-transition:width  0.2s ease-in-out;
+ -o-transition: width  0.2s ease-in-out;
+ transition: width  0.2s ease-in-out;
+ }
+ 
+ #custom-search-form button {
+     border: 0;
+     background: none;
+     /** belows styles are working good */
+     padding: 2px 5px;
+     margin-top: 2px;
+     position: relative;
+     left: -28px;
+     /* IE7-8 doesn't have border-radius, so don't indent the padding */
+     margin-bottom: 0;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+ }
+ 
+ .search-query:focus + button {
+     z-index: 3;   
+ }   
+ .search-query:focus{
+     width: 260px;
+ }   
+ 
+ 
+ 

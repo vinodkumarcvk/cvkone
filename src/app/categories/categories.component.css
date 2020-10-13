@@ -1,3 +1,12 @@
+body{
+ margin-top: 0px;
+ margin-left:130px;
+ padding-top:75px;
+ }
+ 
+
+
+
 .custab{
   border: 1px solid #ccc;
   padding: 5px;
@@ -67,3 +76,5 @@ transition: width  0.2s ease-in-out;
 .search-query:focus{
     width: 260px;
 }   
+
+
