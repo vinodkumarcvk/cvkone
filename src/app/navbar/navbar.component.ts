@@ -1,3 +1,4 @@
+import { element } from 'protractor';
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 
@@ -10,12 +11,12 @@ export class NavbarComponent implements OnInit {
 
   constructor() { }
 
-  // tslint:disable-next-line: typedef
-  ngOnInit(){
-    // tslint:disable-next-line: deprecation
-    $(document).ready(() => {
-        // tslint:disable-next-line: deprecation
-        $('#open-menu').click(() => {
+
+  ngOnInit(): void{
+
+    $(Element).on( 'ready', ( e) => {
+
+        $('#open-menu').on('click', ( el ) => {
             if ($('#page-container').hasClass('show-menu')) {
               $('#page-container').removeClass('show-menu');
             }
