@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { CategoryMainComponent } from './category-main/category-main.component';
 import { NewNavbarComponent } from './new-navbar/new-navbar.component';
+import { ProductDescripComponent } from './product-descrip/product-descrip.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { NewNavbarComponent } from './new-navbar/new-navbar.component';
     SignupComponent,
     CategoryMainComponent,
     NewNavbarComponent,
+    ProductDescripComponent,
 
   ],
   imports: [

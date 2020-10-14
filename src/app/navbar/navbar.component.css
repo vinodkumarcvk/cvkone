@@ -1,26 +1,26 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 300px) {
-  body {width: 200px; float: left}
+  body {width: 1200px; }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  body {width: 600px; float: left}
+  body {width: 100%;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  body {width: 768px; }
+  body {width: 50% }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  body {width: 992px; }
+  body {width: 50%; }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  body {width: 1200px;}
+  body {width: 1920px;}
 }
 
 
@@ -92,6 +92,7 @@
 }
 .main-admin.show-menu .side-bar{
   width: 190px;
+  
 }
 
 .main-admin.show-menu .main-body-content{
@@ -132,6 +133,10 @@
   text-decoration: none;
   background-color: #8ac1f6;
   color:#fff;
+  -webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
 }
 .side-bar .side-bar-links ul.navbar-nav li a:hover i{
   color:#fff;
@@ -145,6 +150,10 @@
   opacity: 1;
   transition: ease 0.3s;
   margin: 4px;
+  -webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
 }
 
 
