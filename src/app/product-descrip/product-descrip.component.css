@@ -1,3 +1,6 @@
 .pro-details .nav-item{
   height:50px;
 }
+.mrpDescription{
+  list-style:none;
+}
