@@ -14,13 +14,5 @@ export class OrdersComponent implements OnInit {
 
   ngOnInit(): void {
 
-  //   $(document).ready( ()=> {
-  //     $("#myInput").on("keyup",  ()=> {
-  //         var value = $(this).val().toLowerCase();
-  //         $("#myTable tr").filter( () => {
-  //             $(this).toggle($(this).text().toLowerCase().indexOf(value) => -1)
-  //         });
-  //     });
-  // });
   }
 }
