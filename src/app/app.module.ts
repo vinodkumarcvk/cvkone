@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { CategoryMainComponent } from './category-main/category-main.component';
 import { ProductDescripComponent } from './product-descrip/product-descrip.component';
+import { ViewCartComponent } from './view-cart/view-cart.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { ProductDescripComponent } from './product-descrip/product-descrip.compo
     SignupComponent,
     CategoryMainComponent,
     ProductDescripComponent,
+    ViewCartComponent,
 
   ],
   imports: [
